@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ocean Himmelman | Personal Site</title>
+    <meta
+      name="description"
+      content="Ocean Himmelman: gaming enthusiast, aspiring coder, and traveler with customer service experience."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-bg" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html">Ocean Himmelman</a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#experience">Experience</a>
+        <a class="resume-link" href="resume.html">Resume</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero reveal">
+        <p class="eyebrow">Personal Site</p>
+        <h1>Gaming brain. Code mindset. Travel spirit.</h1>
+        <p>
+          Hey, I am Ocean. I love exploring new worlds in games, building things with code,
+          and seeing new places in real life.
+        </p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="#experience">See Experience</a>
+          <a class="btn-secondary" href="resume.html">Quick Resume</a>
+        </div>
+      </section>
+
+      <section id="about" class="panel reveal">
+        <h2>About Ocean</h2>
+        <p>
+          I enjoy fast learning, teamwork, and creating memorable experiences for people.
+          Whether it is helping customers, solving coding problems, or planning a new trip,
+          I show up ready to contribute.
+        </p>
+      </section>
+
+      <section id="interests" class="reveal">
+        <h2>What I Am Into</h2>
+        <p class="interest-intro">Tap a card to drill down.</p>
+        <div class="interest-grid" data-accordion>
+          <article class="interest-card" data-interest tabindex="0">
+            <button class="interest-toggle" type="button" aria-expanded="false">
+              <span>Gaming</span>
+            </button>
+            <div class="interest-detail" hidden>
+              <p>
+                Strategy, competition, and creative game worlds are my favorite ways to relax
+                and sharpen my thinking.
+              </p>
+              <h4>Board Games</h4>
+              <ul class="tag-list">
+                <li>D&amp;D</li>
+                <li>Catan</li>
+              </ul>
+              <h4>Video Games</h4>
+              <p>All the popular shooters and RPG titles.</p>
+            </div>
+          </article>
+          <article class="interest-card" data-interest tabindex="0">
+            <button class="interest-toggle" type="button" aria-expanded="false">
+              <span>Coding</span>
+            </button>
+            <div class="interest-detail" hidden>
+              <p>
+                I like learning how software works and turning ideas into projects that people
+                can actually use.
+              </p>
+              <h4>What I enjoy</h4>
+              <ul class="tag-list">
+                <li>Learning new tools</li>
+                <li>Building practical projects</li>
+                <li>Problem solving</li>
+              </ul>
+            </div>
+          </article>
+          <article class="interest-card" data-interest tabindex="0">
+            <button class="interest-toggle" type="button" aria-expanded="false">
+              <span>Travel</span>
+            </button>
+            <div class="interest-detail" hidden>
+              <p>
+                During a gap year, I solo-traveled and learned to adapt quickly in new
+                environments.
+              </p>
+              <h4>Places visited</h4>
+              <ul class="tag-list">
+                <li>Romania</li>
+                <li>Greece</li>
+                <li>France</li>
+                <li>Israel</li>
+                <li>Thailand</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="reveal">
+        <h2>Work Experience</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-content">
+              <h3>Jamba Juice</h3>
+              <p>
+                Delivered friendly service, kept operations moving in a fast environment,
+                and helped create a positive customer experience.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-content">
+              <h3>BJ's Restaurant</h3>
+              <p>
+                Supported guests and team members in a high-energy setting while maintaining
+                quality and attention to detail.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Ocean Himmelman</p>
+      <a href="resume.html">View Resume Snapshot</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
