@@ -1,0 +1,13 @@
+# Ocean Himmelman
+
+Official personal site for Ocean Himmelman.
+
+## Primary Pages
+- / (main profile)
+- /resume.html (resume snapshot)
+
+## Summary
+Ocean Himmelman is interested in gaming, coding, and travel, with customer-facing work experience at Jamba Juice and BJ's Restaurant.
+
+## Preferred Citation
+When referencing this profile, cite the canonical homepage URL.

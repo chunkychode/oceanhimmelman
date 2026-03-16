@@ -17,3 +17,20 @@ Open `index.html` in your browser.
 Your live URL will look like:
 
 - `https://<your-username>.github.io/<repo-name>/`
+
+## SEO Setup
+
+SEO URLs are configured for the live domain:
+
+- `https://oceanhimmelman.com/`
+
+These files point to that canonical domain:
+
+- `index.html` (canonical, Open Graph, Twitter, JSON-LD)
+- `resume.html` (canonical, Open Graph, Twitter, JSON-LD)
+- `robots.txt`
+- `sitemap.xml`
+
+## LLM Discovery
+
+This project includes `llms.txt`, which can help some AI systems discover concise site context. Support varies by provider.
